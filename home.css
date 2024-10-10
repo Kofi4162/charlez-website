@@ -1,0 +1,132 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    background-image: url(img/photo1.jpeg);
+}
+
+/* Header and Navigation */
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero {
+    position: relative;
+    background: url('your-image.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.hero h1, .hero p, .hero .btn {
+    position: relative;
+    z-index: 2; /* Makes sure text is above overlay */
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.hero .btn {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #ff4500;
+}
+
+/* Features Section */
+.features {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+    background-image: url(img/photo1.jpeg);
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box h3 {
+    color:black;
+    margin-bottom: 15px;
+}
+
+.feature-box p {
+    color: red;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
